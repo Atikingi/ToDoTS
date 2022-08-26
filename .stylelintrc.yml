@@ -1,0 +1,22 @@
+{
+   'extends':
+      [
+         'stylelint-config-standard',
+         'stylelint-config-prettier',
+         'stylelint-config-prettier-scss',
+         'stylelint-prettier/recommended'
+      ],
+   'rules':
+      {
+         'comment-empty-line-before': 'always',
+         'declaration-empty-line-before':
+            [
+               'always',
+               {
+                  'except':
+                     ['after-comment', 'after-declaration', 'first-nested'],
+               },
+            ],
+         'selector-class-pattern': '([a-z][a-z0-9]+)+(\__[a-z0-9]+([A-Z][a-z0-9]+)*)?(\-[a-z0-9]+([A-Z][a-z0-9]+)*)?',
+      },
+}

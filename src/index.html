@@ -1,13 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>ToDo</title>
 </head>
 <body>
+<div class="todo__wrapper">
+    <section class="todo__form">
+        <h1 class="todo__title">Список дел</h1>
+        <form class="todo__new-task-form" id="todo-form">
+            <input type="text" minlength="4" class="todo__text" id="form-text" autocomplete="off" placeholder="Напишите задачу">
+            <button class="todo__create-button" id="form-button"></button>
+        </form>
+    </section>
+
+    <section class="todo__tasks">
+        <ul class="todo__list" id="todo-list"></ul>
+    </section>
+</div>
+
+
 
 </body>
 </html>
