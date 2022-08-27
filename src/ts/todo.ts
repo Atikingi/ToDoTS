@@ -135,7 +135,7 @@ class ToDo {
     }
 }
 
-const toDoItem = new ToDo();
+export const toDoItem = new ToDo();
 
 toDoItem.loadingTasks();
 toDoItem.submitForm();
