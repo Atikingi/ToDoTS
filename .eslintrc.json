@@ -1,0 +1,21 @@
+{
+   "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+   },
+   "extends": ["eslint:recommended", "prettier"],
+   "plugins": ["prettier"],
+   "parser": "@babel/eslint-parser",
+   "parserOptions": {
+      "sourceType": "module",
+      "allowImportExportEverywhere": true,
+      "requireConfigFile": false
+   },
+   "rules": {
+      "prettier/prettier": ["error", { "endOfLine": "auto" }],
+      "camelcase": ["error"],
+      "eqeqeq": ["error", "always"],
+      "no-unused-vars": ["off"]
+   }
+}

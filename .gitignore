@@ -1,1 +1,4 @@
 .idea
+.husky
+dist
+node_modules
